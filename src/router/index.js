@@ -2,10 +2,10 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
 
-import SeedProducers from '@/components/SeedProducers'
-import SeedProducersAdd from '@/components/SeedProducersAdd'
-import SeedProducersEdit from '@/components/SeedProducersEdit'
-import SeedProducersDelete from '@/components/SeedProducersDelete'
+import SeedProducers from '@/components/SeedProducers/Index'
+import SeedProducersAdd from '@/components/SeedProducers/Add'
+import SeedProducersEdit from '@/components/SeedProducers/Edit'
+import SeedProducersDelete from '@/components/SeedProducers/Delete'
 
 import NotFound from '@/components/404.vue'
 
